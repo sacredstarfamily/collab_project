@@ -3,3 +3,7 @@
     justify-content: space-around;
 }
 
+.secondcol {
+    display: flex;
+    flex-direction: column;
+}
