@@ -7,3 +7,7 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.form-control {
+    border-radius: 50px !important;
+}
