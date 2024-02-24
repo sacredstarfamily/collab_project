@@ -1,6 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 .icons {
@@ -11,6 +12,7 @@
 .secondcol {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .col1 {
@@ -24,3 +26,9 @@
 .noacct {
     color: white;
 }
+
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
