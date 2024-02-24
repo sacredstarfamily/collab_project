@@ -35,3 +35,11 @@
 .btn { 
     background-color: #0314fe !important;
 }
+
+.icons > a {
+    color: black;
+}
+
+.icons > a:hover {
+    color: #0314fe;
+}
