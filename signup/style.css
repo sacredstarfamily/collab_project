@@ -16,39 +16,44 @@
     background: url(person.svg) no-repeat left;
     background-size: 1rem;
     background-position: 10%;
-    
+    border-color: black;
+
 }
+
 #emailinput {
     background: url(envelope.svg) no-repeat left;
     background-size: 1rem;
     background-position: 10%;
+    border-color: black;
 }
+
 #passinput {
     padding-left: ;
     background: url(lock-fill.svg) no-repeat left;
     background-size: 1rem;
     background-position: 10%;
+    border-color: black;
 }
 
 i {
     background-color: white;
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 1px solid black;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  a {
+a {
     text-decoration: none;
-    
-  }
 
-  #smalltext {
+}
+
+#smalltext {
     font-size: x-small !important;
-  }
+}
 
-  .icon-link {
+.icon-link {
     color: black;
-  }
+}
