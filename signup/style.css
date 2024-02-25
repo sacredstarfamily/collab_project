@@ -35,8 +35,6 @@ i {
     border-radius: 50%;
     border: 1px solid grey;
     padding: 20px;
-    height: 1rem;
-    width: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,4 +42,13 @@ i {
 
   a {
     text-decoration: none;
+    
+  }
+
+  #smalltext {
+    font-size: x-small !important;
+  }
+
+  .icon-link {
+    color: black;
   }
