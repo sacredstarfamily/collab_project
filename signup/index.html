@@ -5,19 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
 </head>
 
 <body>
 
     <!-- Grid Container / Whole Page -->
-    <div class="container text-center">
+    <div class="container-lg text-center">
+
+
+        <!-- NavBar -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="Logo.png" alt="" srcset=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav justify-content-around">
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link mx-auto" href="/">Home</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link mx-auto" href="#">Feature</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link mx-auto" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="howitworks">How It Works</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link mx-auto" href="#">Support</a>
+                            </li>
+                        </ul>
+                        <div class="nav-item text-center mx-auto">
+                            <a class="btn btn-outline-primary mx-auto" href="login">Login</a>
+                            <a class="btn btn-primary mx-auto" href="signup">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Main  -->
         <div class="row">
             <!-- Left Page Col (sign up inputs) -->
-            <div class="col-sm-4 mt-2 pt-5">
+            <div class="col-sm-12 col-lg-4 mt-2 pt-5">
                 <div class="mx-auto">
                     <!-- Header -->
                     <div class="mt-5 mb-5">
@@ -46,7 +88,6 @@
 
 
 
-
                     <!-- Button -->
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <button id="button" type="button" class="btn btn-primary rounded button">Sign Up</button>
@@ -60,29 +101,31 @@
 
 
 
-
                     <!-- Icon Links / Flex -->
 
                     <div class="container text-center">
                         <div class="row align-items-center">
-                            <div class="col">
-                                <a class="icon-link" href="https://www.facebook.com/signup"><svg class="bi" aria-hidden="true"
-                                        style="--bs-link-color-rgb: 0, 0, 0"> <!-- how to get icon black?-->
+                            <div class="col col-sm-3">
+                                <a class="icon-link" href="https://www.facebook.com/signup"><svg class="bi"
+                                        aria-hidden="true" style="--bs-link-color-rgb: 0, 0, 0">
+                                        <!-- how to get icon black?-->
                                         <use xlink:href="#box-seam"></use>
                                     </svg><i class="bi bi-facebook"></i></a>
                             </div>
-                            <div class="col">
-                                <a class="icon-link" href="https://twitter.com/i/flow/signup?lang=en"><svg class="bi" aria-hidden="true">
+                            <div class="col col-sm-3">
+                                <a class="icon-link" href="https://twitter.com/i/flow/signup?lang=en"><svg class="bi"
+                                        aria-hidden="true">
                                         <use xlink:href="#box-seam"></use>
                                     </svg><i class="bi bi-twitter"></i></a>
                             </div>
-                            <div class="col">
+                            <div class="col col-sm-3">
                                 <a class="icon-link" href="https://g.co/kgs/X2JpXFp"><svg class="bi" aria-hidden="true">
                                         <use xlink:href="#box-seam"></use>
                                     </svg><i class="bi bi-google"></i></a>
                             </div>
-                            <div class="col">
-                                <a class="icon-link" href="https://www.linkedin.com/signup"><svg class="bi" aria-hidden="true">
+                            <div class="col col-sm-3">
+                                <a class="icon-link" href="https://www.linkedin.com/signup"><svg class="bi"
+                                        aria-hidden="true">
                                         <use xlink:href="#box-seam"></use>
                                     </svg><i class="bi bi-linkedin"></i></a>
                             </div>
@@ -94,14 +137,37 @@
             </div>
 
             <!-- Right Page Col (image) -->
-            <div class="col-sm-8 mt-5 mb-3">
+            <div class="col-sm-12 col-lg-8 mt-5 mb-3">
                 <img src="group 10.png" class="mt-5" style="width: 100%;">
             </div>
+
+
+
         </div>
-    </div>
+
 
     </div>
+    <!-- Footer -->
 
+    <footer>
+        <div class="container text-center ">
+           
+                
+            <h2 class="mx-auto">Try Double Tap Today!</h2>
+            <p class="mx-auto">Lets Get Started</p>
+            <a href="#" class="btn btn-success btn-sm mx-auto">Sign Up Free <i class="bi bi-chevron-double-right"></i></a>
+            <a href="#" class=" btn btn-light btn-sm mx-auto "><i class="bi bi-chat-dots-fill" style="margin-right:10px"></i>Chat with Us</a>
+            <div class="details" style="justify-self: center;align-self: center;">
+                <ul class="list-inline mx-auto justify-content-center" style="font-size:10px">
+                    <li>Free 14 day Trial</li>
+                    <li>Manage customers in minutes</li>
+                    <li>cancel anytime</li>
+                </ul>
+            </div>
+        
+    </div>
+     
+    </footer>
 
 
 
