@@ -200,7 +200,7 @@
     padding-top: 100px;
 }
 
-.card-text {
+.card-info {
     padding: 35px;
 }
 
@@ -221,4 +221,8 @@
 
 .text-center {
     margin: none;
+}
+
+#img-getpaid {
+    padding: 100px;
 }
