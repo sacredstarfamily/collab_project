@@ -28,15 +28,13 @@
 }
 
 #passinput {
-    padding-left: ;
     background: url(lock-fill.svg) no-repeat left;
     background-size: 1rem;
     background-position: 10%;
     border-color: black;
 }
 
-i {
-    background-color: white;
+.input-group > i {
     border-radius: 50%;
     border: 1px solid black;
     padding: 20px;
@@ -67,6 +65,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    max-height: 20vh;
   }
 
  
