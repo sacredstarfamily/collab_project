@@ -1,0 +1,224 @@
+.main {
+    margin-bottom: 200px;
+}
+.nav-item>button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: bullet;
+    
+}
+.details>ul{
+    display: flex;
+    padding: 10;
+    
+}
+.details>ul>li{
+    margin-left: 20px;
+    font-size: 11px;
+}
+.footer-details {
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+}
+.weird-border-top-left{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 130px;
+    font-size:16px;
+    width: 130px;
+    border-radius:50px 0px;
+    background-color: blue;
+}
+.image-trans{
+    align-self: center;
+}
+.weird-border-top-center{
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
+}
+.weird-border-top-right{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 12px;
+    height: 130px;
+    width: 130px;
+    border-radius:60px;
+    color:white;
+    background-color: blue;
+}
+.weird-border-center-left{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    border-radius:80px;
+    color:white;
+    background-color: blue;
+}
+.weird-border-center-center{
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
+}
+.weird-border-center-right{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 50px 0px;
+    color:white;
+    background-color: blue;
+}
+.weird-border-bottom-left{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 0px 50px;
+    background-color: blue;
+}
+.weird-border-bottom-center{
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
+}
+.weird-border-bottom-right{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 50px;
+    background-color: blue;
+}
+.explore-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.solutions {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+.grid-top{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: auto;
+    width:100px;
+    height: 100px;
+}
+.footer {
+    background-color: blue;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .container {  
+    display: grid;
+    grid-template-columns: 13% 74% 13%;
+    grid-template-rows: 10% 35% 100% 20%;
+    gap: 5px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "navbar navbar navbar"
+        "header header header"
+        ". content ."
+        "footer footer footer";
+}
+
+.navbar { grid-area: navbar; }
+
+.header { grid-area: header; }
+
+.content { grid-area: content; }
+
+.footer { grid-area: footer; } */
+
+.card-body {
+    padding: 50px 30px 100px 30px;
+}
+
+.media {
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+}
+
+.image {
+    padding: 100px;
+}
+
+.text-on-card {
+    background-color: blue;
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+}
+
+.card-title {
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.card-text {
+    padding: 35px;
+}
+
+/* .text {
+    max-width: 50%;
+    justify-content: center;
+} */
+
+.text {
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 75px;
+}
+
+.container-2 {
+    margin-bottom: 100px;
+}
+
+.text-center {
+    margin: none;
+}
