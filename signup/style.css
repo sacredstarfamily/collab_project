@@ -12,3 +12,20 @@
     border-radius: 50px !important;
 }
 
+#userinput {
+    background: url(person.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+    
+}
+#emailinput {
+    background: url(envelope.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+}
+#passinput {
+    padding-left: ;
+    background: url(lock-fill.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+}
