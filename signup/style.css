@@ -28,13 +28,15 @@
 }
 
 #passinput {
+    padding-left: ;
     background: url(lock-fill.svg) no-repeat left;
     background-size: 1rem;
     background-position: 10%;
     border-color: black;
 }
 
-.input-group > i {
+i {
+    background-color: white;
     border-radius: 50%;
     border: 1px solid black;
     padding: 20px;
@@ -45,6 +47,7 @@
 
 a {
     text-decoration: none;
+
 }
 
 #smalltext {
@@ -54,18 +57,3 @@ a {
 .icon-link {
     color: black;
 }
-
-
-footer {
-    background-color: blue;
-    color:white;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    max-height: 20vh;
-  }
-
- 
