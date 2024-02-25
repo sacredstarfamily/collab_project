@@ -1,3 +1,6 @@
+.main {
+    margin-bottom: 200px;
+}
 .nav-item>button {
   background-color: #4CAF50;
   color: white;
@@ -24,96 +27,109 @@
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    font-size:16px;
+    width: 130px;
     border-radius:50px 0px;
-    transform: rotate(-5deg);
     background-color: blue;
 }
+.image-trans{
+    align-self: center;
+}
 .weird-border-top-center{
-    border: 1px solid black;
     padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
-    background-color: blue;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
 }
 .weird-border-top-right{
     border: 1px solid black;
     padding: 10px;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
+    margin: 12px;
+    height: 130px;
+    width: 130px;
+    border-radius:60px;
+    color:white;
     background-color: blue;
 }
 .weird-border-center-left{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
+    height: 130px;
+    width: 130px;
+    border-radius:80px;
+   color:white;
     background-color: blue;
 }
 .weird-border-center-center{
-    border: 1px solid black;
     padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
-    background-color: blue;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
 }
 .weird-border-center-right{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 50px 0px;
+    color:white;
     background-color: blue;
 }
 .weird-border-bottom-left{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 0px 50px;
     background-color: blue;
 }
 .weird-border-bottom-center{
-    border: 1px solid black;
     padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
-    background-color: blue;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(254, 254, 254);
 }
 .weird-border-bottom-right{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 150px;
-    width: 150px;
-    border-radius:50px 0px;
-    transform: rotate(-5deg);
+    height: 130px;
+    width: 130px;
+    border-radius:0px 0px 50px;
     background-color: blue;
 }
-.image-trans{
-    translate: -0px 30px;
-    transform: rotate(5deg);
-    align-self: center;
+.explore-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.solutions {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+.grid-top{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: auto;
+    width:100px;
+    height: 100px;
 }
 footer {
   background-color: blue;
