@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 .main {
     margin-bottom: 200px;
 }
@@ -182,7 +186,8 @@
         "navbar navbar navbar"
         "header header header"
         ". content ."
-        "footer footer footer";
+        "footer footer footer";*{
+            
 }
 
 .navbar { grid-area: navbar; }
