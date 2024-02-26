@@ -1,6 +1,7 @@
 .main {
     margin-bottom: 200px;
 }
+
 .nav-item>button {
     background-color: #4CAF50;
     color: white;
@@ -10,6 +11,7 @@
     cursor: pointer;
     width: 100%;
 }
+
 .details {
     display: flex;
     flex-direction: row;
@@ -17,15 +19,18 @@
     list-style: bullet;
     
 }
+
 .details>ul{
     display: flex;
     padding: 10;
     
 }
+
 .details>ul>li{
     margin-left: 20px;
     font-size: 11px;
 }
+
 .footer-details {
     width:100px;
     justify-content: center;
@@ -34,6 +39,7 @@
     align-content: center;
     justify-self: center;
 }
+
 .weird-border-top-left{
     border: 1px solid black;
     padding: 10px;
@@ -44,9 +50,11 @@
     border-radius:50px 0px;
     background-color: blue;
 }
+
 .image-trans{
     align-self: center;
 }
+
 .weird-border-top-center{
     padding: 10px;
     box-shadow: 10px 10px 5px #888888;
@@ -55,6 +63,7 @@
     width: 130px;
     background-color: rgb(254, 254, 254);
 }
+
 .weird-border-top-right{
     border: 1px solid black;
     padding: 10px;
@@ -65,6 +74,7 @@
     color:white;
     background-color: blue;
 }
+
 .weird-border-center-left{
     border: 1px solid black;
     padding: 10px;
@@ -75,6 +85,7 @@
     color:white;
     background-color: blue;
 }
+
 .weird-border-center-center{
     padding: 10px;
     box-shadow: 10px 10px 5px #888888;
@@ -83,6 +94,7 @@
     width: 130px;
     background-color: rgb(254, 254, 254);
 }
+
 .weird-border-center-right{
     border: 1px solid black;
     padding: 10px;
@@ -93,6 +105,7 @@
     color:white;
     background-color: blue;
 }
+
 .weird-border-bottom-left{
     border: 1px solid black;
     padding: 10px;
@@ -102,6 +115,7 @@
     border-radius:0px 0px 0px 50px;
     background-color: blue;
 }
+
 .weird-border-bottom-center{
     padding: 10px;
     box-shadow: 10px 10px 5px #888888;
@@ -110,6 +124,7 @@
     width: 130px;
     background-color: rgb(254, 254, 254);
 }
+
 .weird-border-bottom-right{
     border: 1px solid black;
     padding: 10px;
@@ -131,10 +146,12 @@
     grid-template-columns: auto auto;
     justify-content: space-around;
 }
+
 .grid-item {
     padding: 20px;
     text-align: center;
 }
+
 .grid-top{
     position: relative;
     border: 1px solid black;
@@ -143,6 +160,7 @@
     width:100px;
     height: 100px;
 }
+
 .footer {
     background-color: blue;
     color:white;
@@ -151,7 +169,7 @@
     padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width:100%;
 }
 
 /* .container {  
