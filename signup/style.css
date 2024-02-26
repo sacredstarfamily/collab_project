@@ -34,7 +34,7 @@
     border-color: black;
 }
 
-i {
+ i.social-link {
     background-color: white;
     border-radius: 50%;
     border: 1px solid black;
@@ -42,7 +42,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 a {
     text-decoration: none;
