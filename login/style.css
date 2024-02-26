@@ -18,9 +18,17 @@
 .col1 {
     display: flex;
     flex-direction: column;
-    background-image: url(./Screenshot\ 2024-02-24\ at\ 12.23.42\ PM.png);
+    /* background-image: url(./Screenshot\ 2024-02-24\ at\ 12.23.42\ PM.png);
     background-size: 100% 100%;
-    background-position: fixed;
+    background-position: fixed; */
+}
+
+.clipped-border {
+    width: 300;
+    height: 200;
+    background-color: #0314fe;
+    background-size: cover;
+    clip-path: ellipse(77% 75% at 20% 15%);
 }
 
 .noacct {
