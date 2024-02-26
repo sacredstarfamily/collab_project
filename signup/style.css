@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+#button {
+    border-radius: 50px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-control {
+    border-radius: 50px !important;
+}
+
+#userinput {
+    background: url(person.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+    border-color: black;
+
+}
+
+#emailinput {
+    background: url(envelope.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+    border-color: black;
+}
+
+#passinput {
+    background: url(lock-fill.svg) no-repeat left;
+    background-size: 1rem;
+    background-position: 10%;
+    border-color: black;
+}
+
+ i.social-link {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+a {
+    text-decoration: none;
+
+}
+
+#smalltext {
+    font-size: x-small !important;
+}
+
+.icon-link {
+    color: black;
+}
